@@ -7,8 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-User.create(username: "Cristian", password: "password")
-User.create(username: "Fernando", password: "password")
-User.create(username: "Jesus", password: "password")
-User.create(username: "David", password: "password")
-User.create(username: "Oscar", password: "password")
+Message.create(body:"Good morning", user_id:1)
+Message.create(body:"Good morning", user_id:2)
+Message.create(body:"Hello, and how are you?", user_id:1)
+Message.create(body:"Fine, thanks for ask!", user_id:2)
