@@ -5,4 +5,5 @@ class ChatroomController < ApplicationController
     @message  = Message.new
     @messages = Message.all
   end
+  
 end
