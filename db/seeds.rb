@@ -9,5 +9,6 @@
 
 Message.create(body:"Good morning", user_id:1)
 Message.create(body:"Good morning", user_id:2)
-Message.create(body:"Hello, and how are you?", user_id:1)
-Message.create(body:"Fine, thanks for ask!", user_id:2)
+Message.create(body:"Hello, and how are you?", user_id:3)
+Message.create(body:"Fine, thanks for ask!", user_id:4)
+Message.create(body:"Cómo va el chat?", user_id:4)
