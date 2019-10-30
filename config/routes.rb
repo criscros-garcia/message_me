@@ -11,7 +11,8 @@ Rails.application.routes.draw do
   post   'signup', to: 'users#create'
 
   post 'message', to: 'messages#create'
-
+  #First, we need to mount the Action Cable server on
+  # a sub-URI of our main application.
   mount ActionCable.server, at: '/cable'
 
 end
